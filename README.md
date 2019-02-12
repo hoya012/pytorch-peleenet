@@ -86,7 +86,10 @@ class Transition_layer(nn.Sequential):
 ```
 
 ### StemBlock
-![](https://github.com/hoya012/pytorch-peleenet/blob/master/assets/stem_block.png)
+
+<p align="center">
+  <img width="500" src="https://github.com/hoya012/pytorch-peleenet/blob/master/assets/stem_block.png" "Stem Block">
+</p>
 
 PeleeNet use Stem Block. This is my implementation of Stem Block.
 
