@@ -2,7 +2,7 @@
 Simple Code Implementation of ["PeleeNet" in NeurIPS 2018](https://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf) architecture using PyTorch.
 
 
-![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/architecture.PNG)
+![](https://github.com/hoya012/pytorch-peleenet/blob/master/assets/architecture.png)
 
 For simplicity, i write codes in `ipynb`. So, you can easliy test my code.
 
@@ -34,7 +34,6 @@ For training, testing, i used `CIFAR-10` Dataset.
 
 ## Paper Review & Code implementation Blog Posting (Korean Only)
 [“Pelee Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/Pelee-Tutorial-1/)  
-
 
 ## DenseBlock and other layers impelemtation.
 In PeleeNet, there are some changes compared to DenseNet. This is my simple implemenatation.
@@ -86,7 +85,7 @@ class Transition_layer(nn.Sequential):
 ```
 
 ### StemBlock
-![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/stem_block.png)
+![](https://github.com/hoya012/pytorch-peleenet/blob/master/assets/stem_block.png)
 
 PeleeNet use Stem Block. This is my implementation of Stem Block.
 
