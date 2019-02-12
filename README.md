@@ -1,8 +1,9 @@
 # pytorch-peleenet
 Simple Code Implementation of ["PeleeNet" in NeurIPS 2018](https://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf) architecture using PyTorch.
 
-
-![](https://github.com/hoya012/pytorch-peleenet/blob/master/assets/architecture.png)
+<p align="center">
+  <img width="700" src="https://github.com/hoya012/pytorch-peleenet/blob/master/assets/architecture.png" "PeleeNet architecture">
+</p>
 
 For simplicity, i write codes in `ipynb`. So, you can easliy test my code.
 
