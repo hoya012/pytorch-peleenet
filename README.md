@@ -7,7 +7,7 @@ Simple Code Implementation of ["PeleeNet" in NeurIPS 2018](https://papers.nips.c
 
 For simplicity, i write codes in `ipynb`. So, you can easliy test my code.
 
-I tested PeleeNet using not ImageNet but **CIFAR-10** because of very very long training time & GPU resourece..
+I tested PeleeNet using not ImageNet but **CIFAR-10** because of very very long training time & GPU resource..
 
 *Last update : 2019/2/12*
 
