@@ -29,7 +29,7 @@ You only run `PeleeNet-PyTorch.ipynb`.
 
 Or you can use Google Colab for free!! This is [colab link](https://colab.research.google).
 
-After download ipynb, upload to your google drive. and run!
+After downloading ipynb, just upload to your google drive. and run!
 
 For training, testing, i used `CIFAR-10` Dataset.
 
