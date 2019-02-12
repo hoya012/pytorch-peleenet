@@ -14,7 +14,7 @@ I tested PeleeNet using not ImageNet but **CIFAR-10** because of very very long 
 ## Contributor
 * hoya012
 
-## Requirements
+## 0. Requirements
 ```
 python=3.5
 numpy
@@ -24,7 +24,7 @@ torchvision
 torchsummary
 ```
 
-## Usage
+## 1. Usage
 You only run `PeleeNet-PyTorch.ipynb`. 
 
 Or you can use Google Colab for free!! This is [colab link](https://colab.research.google).
@@ -33,10 +33,10 @@ After download ipynb, upload to your google drive. and run!
 
 For training, testing, i used `CIFAR-10` Dataset.
 
-## Paper Review & Code implementation Blog Posting (Korean Only)
+## 2. Paper Review & Code implementation Blog Posting (Korean Only)
 [“Pelee Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/Pelee-Tutorial-1/)  
 
-## DenseBlock and other layers impelemtation.
+## 3. PeleeNet and other blocks impelemtation.
 In PeleeNet, there are some changes compared to DenseNet. This is my simple implemenatation.
 
 ### Dense layer (Bottleneck layer in DenseNet)
@@ -168,7 +168,7 @@ class PeleeNet(nn.Module):
         return output
 ```
 
-## Training
+## 4. Training phase
 PeleeNet use Cosine Annealing Learning Rate Schedueling.
 
 This is simple implemenation using torch.optim.lr_scheduler.
