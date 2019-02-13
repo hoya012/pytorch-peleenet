@@ -180,11 +180,10 @@ This is simple implemenation using torch.optim.lr_scheduler.
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr=initial_lr, momentum=0.9)
 learning_rate_scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=num_epoch)
-running_loss = 0.0
-
   
 for epoch in range(num_epoch):  
     learning_rate_scheduler.step()
+    running_loss = 0.0
     for i, data in enumerate(train_loader, 0):
         inputs, labels = data
         inputs, labels = inputs.to(device), labels.to(device)
