@@ -15,7 +15,7 @@ I tested PeleeNet using not ImageNet but **CIFAR-10** because of very very long 
 * hoya012
 
 ## 0. Requirements
-```
+```python
 python=3.5
 numpy
 matplotlib
@@ -42,7 +42,7 @@ In PeleeNet, there are some changes compared to DenseNet. This is my simple impl
 ### Dense layer (Bottleneck layer in DenseNet)
 In PeleeNet, we will use two-way dense layer. 
 
-```
+```python
 class dense_layer(nn.Module):
   def __init__(self, nin, growth_rate, drop_rate=0.2):    
       super(dense_layer, self).__init__()
@@ -76,7 +76,7 @@ class dense_layer(nn.Module):
 ### Transition layer
 The only difference is `bn_relu_conv` to `conv_bn_relu` compared to [DenseNet Implementation](https://github.com/hoya012/pytorch-densenet).
 
-```
+```python
 class Transition_layer(nn.Sequential):
   def __init__(self, nin, theta=1):    
       super(Transition_layer, self).__init__()
@@ -93,7 +93,7 @@ class Transition_layer(nn.Sequential):
 
 PeleeNet use Stem Block. This is my implementation of Stem Block.
 
-```
+```python
 class StemBlock(nn.Module):
     def __init__(self):
         super(StemBlock, self).__init__()
